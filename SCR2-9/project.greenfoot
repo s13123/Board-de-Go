@@ -1,5 +1,29 @@
-#Greenfoot properties
-#Fri Dec 08 09:56:13 JST 2017
+#Greenfoot project file
+class.B.image=seal.png
+class.B.superclass=greenfoot.Actor
 class.MyWorld.superclass=greenfoot.World
-version=2.7.1
+mainWindow.height=546
+mainWindow.width=836
+mainWindow.x=939
+mainWindow.y=190
+package.numDependencies=0
+package.numTargets=2
 project.charset=UTF-8
+target1.height=50
+target1.name=B
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=160
+target1.y=10
+target2.height=50
+target2.name=MyWorld
+target2.showInterface=false
+target2.type=ClassTarget
+target2.typeParameters=
+target2.width=80
+target2.x=70
+target2.y=10
+version=2.7.1
+world.lastInstantiated=MyWorld
