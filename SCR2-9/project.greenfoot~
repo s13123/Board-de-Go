@@ -1,11 +1,12 @@
 #Greenfoot project file
+<<<<<<< HEAD
 class.MyWorld.superclass=greenfoot.World
 class.penguin.image=bluej-icon.png
 class.penguin.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=836
 mainWindow.x=65
-mainWindow.y=96
+mainWindow.y=68
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
@@ -16,6 +17,20 @@ target1.editor.y=52
 target1.height=50
 target1.name=penguin
 target1.naviview.expanded=true
+=======
+class.B.image=seal.png
+class.B.superclass=greenfoot.Actor
+class.MyWorld.superclass=greenfoot.World
+mainWindow.height=546
+mainWindow.width=836
+mainWindow.x=939
+mainWindow.y=190
+package.numDependencies=0
+package.numTargets=2
+project.charset=UTF-8
+target1.height=50
+target1.name=B
+>>>>>>> 7fe6201feb9b209fe6c2b0a0529aa78f44f33277
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
