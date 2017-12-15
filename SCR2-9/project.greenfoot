@@ -1,7 +1,4 @@
 #Greenfoot project file
-=\=\=\=\=\=\=
-<<<<<<<=HEAD
->>>>>>>=eb56fcbb880221864a49615439a50e01fbe039bb
 class.A.image=Morio.png
 class.A.superclass=greenfoot.Actor
 class.B.image=seal.png
@@ -14,13 +11,13 @@ class.penguin.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=836
 mainWindow.x=397
-mainWindow.y=266
+mainWindow.y=350
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-target1.editor.x=860
+target1.editor.x=780
 target1.editor.y=380
 target1.height=50
 target1.name=A
