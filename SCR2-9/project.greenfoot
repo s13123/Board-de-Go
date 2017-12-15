@@ -20,8 +20,12 @@ mainWindow.x=397
 <<<<<<< HEAD
 mainWindow.y=350
 =======
+<<<<<<< HEAD
+mainWindow.y=350
+=======
 mainWindow.y=462
 >>>>>>> 2dca856655b6ec3977181debf806b85383807e05
+>>>>>>> 94aaa520cafad6d2c4b87dd7ac0ace7a04b35c5b
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
