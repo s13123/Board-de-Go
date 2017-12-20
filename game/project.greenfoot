@@ -1,23 +1,21 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=28c232ee6b7b2c5fa5c6e667620df0aae082eaf8
 class.Morio.image=Morio.png
 class.Morio.superclass=greenfoot.Actor
 class.MyWorld.superclass=greenfoot.World
 mainWindow.height=574
 mainWindow.width=836
-mainWindow.x=806
-mainWindow.y=323
+mainWindow.x=1006
+mainWindow.y=164
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-<<<<<<< HEAD
-target1.editor.x=105
-target1.editor.y=100
-=======
 target1.editor.x=668
-target1.editor.y=215
->>>>>>> 28c232ee6b7b2c5fa5c6e667620df0aae082eaf8
+target1.editor.y=243
 target1.height=50
 target1.name=Morio
 target1.naviview.expanded=true
@@ -29,8 +27,8 @@ target1.x=160
 target1.y=10
 target2.editor.height=700
 target2.editor.width=900
-target2.editor.x=105
-target2.editor.y=72
+target2.editor.x=1020
+target2.editor.y=68
 target2.height=50
 target2.name=MyWorld
 target2.naviview.expanded=true
