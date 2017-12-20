@@ -15,7 +15,6 @@ public class Morio extends Actor
     int jpmax = 30, jp = 0, high = 0;
     public void act() 
     {
-
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(1);
@@ -43,5 +42,5 @@ public class Morio extends Actor
         move(3);
     }
     
-   }
+   } 
 }
