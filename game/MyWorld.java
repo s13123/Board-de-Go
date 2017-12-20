@@ -8,9 +8,9 @@ import greenfoot.*;
  */
 public class MyWorld extends World
 {
-    private int rtime;
+    //private int rtime;
     
-    public void act()
+    /*public void act()
     {    
         rtime--;
         showText( "rtime =" + rtime, 500, 50 );
@@ -18,7 +18,7 @@ public class MyWorld extends World
             showText( "time up", 500, 50 );
              Greenfoot.stop();
         }
-    }
+    }*/
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -27,7 +27,7 @@ public class MyWorld extends World
     {    
        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        rtime=1000;
+        //rtime=1000;
     }
    
     
