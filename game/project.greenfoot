@@ -1,26 +1,24 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=5fb0df55199e291feb10b72d29847315840cd58e
+>>>>>>>=dca7a4d2c259cd2cd25068a6d3ad874bd5af67a0
 class.Morio.image=Morio.png
 class.Morio.superclass=greenfoot.Actor
 class.MyWorld.superclass=greenfoot.World
+dependency1.from=MyWorld
+dependency1.to=Morio
+dependency1.type=UsesDependency
 mainWindow.height=574
 mainWindow.width=836
-<<<<<<< HEAD
-mainWindow.x=1006
-mainWindow.y=220
-=======
 mainWindow.x=407
-mainWindow.y=183
->>>>>>> dca7a4d2c259cd2cd25068a6d3ad874bd5af67a0
-package.numDependencies=0
+mainWindow.y=295
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=668
-target1.editor.y=243
+target1.editor.y=271
 target1.height=50
 target1.name=Morio
 target1.naviview.expanded=true
@@ -32,8 +30,8 @@ target1.x=160
 target1.y=10
 target2.editor.height=700
 target2.editor.width=900
-target2.editor.x=1020
-target2.editor.y=96
+target2.editor.x=1210
+target2.editor.y=288
 target2.height=50
 target2.name=MyWorld
 target2.naviview.expanded=true
