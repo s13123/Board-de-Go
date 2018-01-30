@@ -30,17 +30,35 @@ public class Morio extends Actor
             jp = jpmax;
         }
     }
+    /*
         if(jp > 0){
-        jp--;
-        high++;
-        setRotation(270);
-        move(3);
+            jp--;
+            high++;
+            setRotation(270);
+            move(3);
     }
-        if(jp == 0 && high > 0){
-        high--;
-        setRotation(90);
-        move(3);
+        else{
+            Actor grand1 = getOneObjectAtOffset( 0, 16, grand.class );
+            Actor grand2 = getOneObjectAtOffset( 0, 16, grand2.class );
+            if( grand1 != null || grand2 != null){
+                high=0;
+                setRotation(0);
+        }    
+            else{
+                high--;
+                setRotation(90);
+                move(3);
+        }
     }
-    
+        Actor drop = getOneObjectAtOffset( 0, 0, out.class );
+        if( drop != null ){
+                getWorld().showText( "Game Over...", 160, 120 );
+                Greenfoot.stop();
+        }
+        Actor goal = getOneObjectAtOffset( 0, 0, flag.class );
+        if( goal != null ){
+                getWorld().showText( "STAGE CLEAR!!!", 160, 120 );
+        }
+    */
    } 
 }
