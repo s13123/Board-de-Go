@@ -30,7 +30,7 @@ public class Morio extends Actor
             jp = jpmax;
         }
     }
-    /*
+    
         if(jp > 0){
             jp--;
             high++;
@@ -59,6 +59,6 @@ public class Morio extends Actor
         if( goal != null ){
                 getWorld().showText( "STAGE CLEAR!!!", 160, 120 );
         }
-    */
+    
    } 
 }

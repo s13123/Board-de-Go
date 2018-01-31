@@ -6,20 +6,20 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
+
 public class MyWorld extends World
 {
     private int rtime;
+
     
     public void act()
     {   
-        /*
         rtime--;
         showText( "rtime =" + rtime, 250, 12 );
         if(rtime == 0){
             showText( "time up", 250, 12 );
             Greenfoot.stop();
         }
-        */
     }
     /**
      * Constructor for objects of class MyWorld.
@@ -28,7 +28,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         super(320, 240, 1);
-        /*
+        
         //主人公設置
         addObject( new Morio(), 8, 192 );
         //固定足場設定
@@ -61,7 +61,7 @@ public class MyWorld extends World
         addObject( new flag(), 312, 168 );
         //落下判別
         addObject( new out(), 160, 242 );
-        */
+ 
         rtime=1000;
     }
    
