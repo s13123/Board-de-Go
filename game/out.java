@@ -14,6 +14,10 @@ public class out extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        //落下してきたenemy5を消す処理、現在起動しない
+        //Actor drop = getOneObjectAtOffset( 0, 0, enemy5.class );
+        //if( drop != null ){
+        //    getWorld().removeObject( drop );
+        //}  
     }    
 }

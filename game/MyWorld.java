@@ -10,7 +10,7 @@ import greenfoot.*;
 public class MyWorld extends World
 {
     private int rtime;
-
+    private int etime, emax=120;
     
     public void act()
     {   
@@ -19,6 +19,13 @@ public class MyWorld extends World
         if(rtime == 0){
             showText( "time up", 250, 12 );
             Greenfoot.stop();
+        }
+        if(etime == emax){
+            addObject( new enemy5(), 248, 56 );
+        }
+        etime--;
+        if(etime == 0){
+            etime=emax;
         }
     }
     /**
@@ -59,9 +66,12 @@ public class MyWorld extends World
         addObject( new grand(), 312, 232 );
         //旗設置
         addObject( new flag(), 312, 168 );
-        //落下判別
+        //落下判別用床設定
         addObject( new out(), 160, 242 );
+        //敵設置
+        addObject( new enemy4(), 248, 48 );
  
+        etime=emax;
         rtime=1000;
     }
    
