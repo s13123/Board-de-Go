@@ -10,7 +10,7 @@ import greenfoot.*;
 public class MyWorld extends World
 {
     private int rtime;
-    private int etime, emax=120;
+    private int etime, emax=100;
     
     public void act()
     {   

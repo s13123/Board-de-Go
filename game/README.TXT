@@ -1,12 +1,16 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+Board-de-go　　ボードでゴー
+[ストーリー]--------------------------------------------------------------
+さらわれたオレンジ姫を助けるため、主人公モリオがボードに乗って大冒険！
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+[操作説明]--------------------------------------------------------------
+←→
+左右キー　：　主人公左右移動
+↑
+上キー　　：　主人公ジャンプ
+
+[ルール説明]------------------------------------------------------------
+画面右側にある旗を目指して進む
+旗に触れるとコースクリア
+敵に触れたり、落ちたしまった場合はゲームオーバー
+時間制限があり、それを過ぎた場合はゲームオーバー
